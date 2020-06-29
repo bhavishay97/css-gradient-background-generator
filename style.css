@@ -24,5 +24,18 @@ body {
 
 .current-bg {
   font-family: 'Source Code Pro', monospace;
-  color: papayawhip;
+  color: white;
+}
+
+.random-btn {
+  color: black;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.random-btn:hover {
+  background: steelblue;
+  border: 1px solid steelblue;
+  color: white;
+  transform: scale(1.1);
 }
