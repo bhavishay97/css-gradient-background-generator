@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, #b138a8, #fa7405);
+}
+
+.title,
+.subtitle {
+  font-family: 'Kanit', sans-serif;
+  color: black;
+}
+
+.title {
+  letter-spacing: 0.4em;
+}
+
+.subtitle {
+  letter-spacing: 0.2em;
+}
+
+.color1,
+.color2 {
+  width: 3em;
+  height: 3em;
+}
+
+.current-bg {
+  font-family: 'Source Code Pro', monospace;
+  color: papayawhip;
+}
