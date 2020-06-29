@@ -20,11 +20,21 @@ body {
 .color2 {
   width: 3em;
   height: 3em;
+  cursor: pointer;
 }
 
 .current-bg {
   font-family: 'Source Code Pro', monospace;
   color: white;
+}
+
+.copy-property {
+  color: black;
+  cursor: grab;
+}
+
+.copy-property:active {
+  cursor: grabbing;
 }
 
 .random-btn {
